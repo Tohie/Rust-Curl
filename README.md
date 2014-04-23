@@ -19,6 +19,9 @@ fn main() {
 Then compile with rustc file.rs -L lib, where file.rs is the file name 
 and lib is the directory where the .rlib and .so files are.
 
+You are also ignore my higher level bindings and use curl functions,
+such as curl_easy_init() etc.
+
 ## Docs
 
 Use make doc, then open doc/curl/index.html in your preferred web browser.
